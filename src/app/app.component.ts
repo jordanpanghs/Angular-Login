@@ -6,12 +6,8 @@ import { LoginComponent } from './login/login.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, LoginComponent],
-  template: `
-    <h1>
-      {{ title }}
-    </h1>
-    <app-login></app-login>
-  `,
+  template: ` <app-login></app-login> `,
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Login Page';
