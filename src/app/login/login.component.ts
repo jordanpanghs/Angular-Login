@@ -12,11 +12,11 @@ import {
   standalone: true,
   template: `
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-      <div>
+      <div class="input-field">
         <label>Username</label>
         <input type="text" formControlName="username" />
       </div>
-      <div>
+      <div class="input-field">
         <label>Password</label>
         <input type="password" formControlName="password" />
       </div>
